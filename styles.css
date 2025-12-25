@@ -1,0 +1,47 @@
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    color: white;
+}
+
+.box1{
+    text-align: center;
+    background-color: #121631;
+    height: 200px;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box2{
+    width: 70px;
+    background-color: black;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F62C46;
+    text-align: center;
+}
+
+button{
+    border-radius: 15%;
+    background-color: #121631;
+    border: 2px solid gray;
+    color: gray;
+}
+
+button:hover{
+    border: 2px solid white;
+    color: white;
+}
+
+#newGame{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
